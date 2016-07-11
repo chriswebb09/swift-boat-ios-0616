@@ -11,6 +11,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
         
+        Boat(name: "New name", maxSpeedKnots: 10.0)
+        
         /**
 
         * Test your custom class here.
@@ -21,4 +23,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         return true  //
     }   //////////////
 }       /////////////
+
+
+
 
